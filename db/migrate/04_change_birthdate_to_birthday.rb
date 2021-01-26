@@ -1,4 +1,4 @@
-class ChangeBirthday < ActiveRecord::Migration[5.1]
+class ChangeBirthdateToBirthday < ActiveRecord::Migration[5.1]
     def change
         rename_column :students, :birthday, :birthdate
     end
